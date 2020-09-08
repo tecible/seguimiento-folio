@@ -2,7 +2,7 @@
 //Llamando a los input
 $nombre = $_POST['nombre'];
 $validador = $_POST['validador'];
-$vtaID = $_POST['vta-id'];
+$vtaID = $_POST['vtaID'];
 $mensaje = $_POST['mensaje'];
 
 //datos correo
