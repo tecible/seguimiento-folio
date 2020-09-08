@@ -16,6 +16,6 @@ $carta .= "Mensaje: $mensaje";
 
 //Enviando mensaje
 mail($destinatario, $asunto, $carta);
-header('Location: https://tecible.github.io/seguimiento-folio/');
+header('Location: index.html');
 
 ?>
