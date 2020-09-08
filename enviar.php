@@ -11,11 +11,11 @@ $asunto = "Seguimiento folios";
 
 $carta = "De: $nombre \n";
 $carta .= "Telefono: $validador \n";
-$carta .= "correo: $vtaID \n";
+$carta .= "ID: $vtaID \n";
 $carta .= "Mensaje: $mensaje";
 
 //Enviando mensaje
 mail($destinatario, $asunto, $carta);
-header('Location: https://adoring-galileo-d444db.netlify.app/');
+header('Location: https://tecible.github.io/seguimiento-folio/');
 
 ?>
