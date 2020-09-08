@@ -16,6 +16,6 @@ $carta .= "Mensaje: $mensaje";
 
 //Enviando mensaje
 mail($destinatario, $asunto, $carta);
-header('Location: index.html');
+header('Location: https://adoring-galileo-d444db.netlify.app/');
 
 ?>
